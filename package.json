@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx,css,json} \" ",
-    "format:check": "prettier --list-different \"src/**/*.{js, jsx, css,json}\" ",
-    "lint": "eslint \"scr/**/*.{js,jsx}\" ",
+    "format:check": "prettier --list-different \"src/**/*.{js, jsx, css, json}\" ",
+    "lint": "eslint \"src/**/*.{js,jsx}\" ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html"
   },
@@ -25,6 +25,7 @@
     "prettier": "^1.14.3"
   },
   "dependencies": {
+    "petfinder-client": "0.0.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   }
