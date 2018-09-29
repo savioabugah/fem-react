@@ -1,5 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
 import pf from "petfinder-client";
 import Pet from "./Pet";
 
@@ -50,6 +49,7 @@ class Results extends React.Component {
               name={pet.name}
               breed={breed}
               key={pet.id}
+              id={pet.id}
               media={pet.media}
               location={`${pet.contact.city}, ${pet.contact.state}`}
             />
